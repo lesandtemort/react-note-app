@@ -1,0 +1,55 @@
+/* src/App.css */
+.sidebar {
+  width: 240px;
+  background-color: rgb(29, 35, 39);
+  color: white;
+  padding: 16px;
+}
+
+.note-container {
+  display: flex;
+}
+
+.note {
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.note:hover {
+  background-color: #f7f7f7;
+}
+
+.current-note {
+  width: 65%;
+  margin-left: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: rgb(44, 51, 56);
+}
+
+button {
+  background-color: rgb(44, 51, 56);
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #333;
+}
